@@ -20,7 +20,7 @@ class Survey < ActiveRecord::Base
 end
 ```
 
-``` ruby app/models/question.rb linenos:false
+``` ruby app/models/question.rb
 class Question < ActiveRecord::Base
   belongs_to :survey
   has_many :answers
